@@ -27,12 +27,12 @@ export default function Forms() {
     }
 
     function handleSubmit(event) {
-        event.preventDefault() //used to prevent the normal behavior of the event. is this case, refreshing the page when submitted
-        console.log(formData)
+        event.preventDefault() //used to prevent the normal behavior of the event. is this case, refreshing the page when s
+
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="bugged" onSubmit={handleSubmit}>
             <input
                 type="text"
                 placeholder="First Name"
