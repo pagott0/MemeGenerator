@@ -1,6 +1,5 @@
 import Header from "./components/Header";
 import Meme from "./components/Meme";
-import Forms from "./components/Forms";
 
 function App() {
   return (
